@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+ *  Roommate
+ *  Copyright (C) 2012,2013 Roommate Team (info@roommateapp.info)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="68dp"
+    android:background="@drawable/bgfrstd"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:app1="http://schemas.android.com/apk/res/app.roommate.two"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:columnCount="2">
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutFileRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/frSettingsButton"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/frHeadline"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="6dp"
+                android:ellipsize="marquee"
+                android:text="@string/frBuilingname"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#535353" />
+
+            <LinearLayout
+                android:id="@+id/linearlayoutSubline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/frImageSubline"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@string/desc_frClock"
+                    android:src="@drawable/frclockstd" />
+
+                <TextView
+                    android:id="@+id/frSubline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="@string/frSubline"
+                    android:textColor="#535353" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/frSettingsButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_gravity="right|center_vertical"
+            android:contentDescription="@string/desc_contextmenu"
+            android:padding="5dp"
+            android:src="@drawable/frsettingsstd" />
+
+    </RelativeLayout>
+
+</LinearLayout>

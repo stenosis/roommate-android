@@ -1,0 +1,55 @@
+ ______  ______  ______  __    __  __    __  ______  ______ ______          
+/\  == \/\  __ \/\  __ \/\ "-./  \/\ "-./  \/\  __ \/\__  _/\  ___\         
+\ \  __<\ \ \/\ \ \ \/\ \ \ \-./\ \ \ \-./\ \ \  __ \/_/\ \\ \  __\         
+ \ \_\ \_\ \_____\ \_____\ \_\ \ \_\ \_\ \ \_\ \_\ \_\ \ \_\\ \_____\       
+ ______/___/_______________/_/__\/______  _______/___/  \/______________    
+/\  ___\/\ \_\ \/\  __ \/\ "-.\ \/\  ___\/\  ___\/\ \    /\  __ \/\  ___\   
+\ \ \___\ \  __ \ \  __ \ \ \-.  \ \ \__ \ \  __\\ \ \___\ \ \/\ \ \ \__ \  
+ \ \_____\ \_\ \_\ \_\ \_\ \_\\"\_\ \_____\ \_____\ \_____\ \_____\ \_____\ 
+  \/_____/\/_/\/_/\/_/\/_/\/_/ \/_/\/_____/\/_____/\/_____/\/_____/\/_____/ 
+  
+--------------------------------------
+
+Version: 1.2
+Datum: xx.07.2013
+
+* ActivityAbout: GitHub Link eingefügt 
+* ActivityPublicFiles zum downloaden von Öffentlichen Dateien eingeführt
+* TimePicker: Zeit zurücksetzen Button hinzugefügt
+* Unterstützung für Lokalisierungen eingeführt
+* Englische Übersetzung hinzugefügt
+* ActivitySettings gibt feedback wenn die App aktuell ist
+* ActivityQR Überreste entfernt
+* Gridlayout Abhänigkeiten entfernt
+* TimeHelper lokalisiert
+
+--------------------------------------
+
+Version: 1.1
+Datum: xx.05.2013
+
+* Client Update Prüfer implementiert
+* Google+ und Facebook Links in die ActivityAbout integriert
+* ActivitySettings Layout Anpassungen zum ActivityAbout Stil
+* ActivitySettings: automatisch nach Updates suchen Option hinzugefügt (noch unvollständig)
+* Vom Raum zurück in das Gebäude wird der Timepicker nicht mehr aktualisiert
+* Fix: Crash beim verlassen des QR-Scanners
+* Fix: Mehr Klickfläche für die Buttons in ActivtyAdd
+* Fix: ActivitySettings, kein Login Versuch wenn keine Email Adresse angegeben wurde
+* Fix: Loop beim verlassen der ActivitySetting
+* Fix: Fehlermeldung wenn keine URL angegeben wurde
+* ActivityAddFile umgestalten
+* ActivitySettings -> Textbeschreibungen einfügen
+* Client Update prüfen als Standard setzen
+
+--------------------------------------
+
+Version: 1.0
+Datum: 21.04.2013
+
+*** Erste Veröffentlichung, hell yeah! ***
+* Synchronisation auf neue Pfade umgestellt
+* Neue Introduction eingeführt
+* ActivityRoom Kennzeichnung aktuell im Timepicker gewählten Stunde
++ ActivityIntro Textänderungen
+

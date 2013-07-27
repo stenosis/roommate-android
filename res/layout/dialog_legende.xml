@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+ *  Roommate
+ *  Copyright (C) 2012,2013 Roommate Team (info@roommateapp.info)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/legende_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_legende_clock"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/frclockstd" />
+
+        <TextView
+            android:id="@+id/txt_legende_clock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_lectureCount"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legende_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_legende_size"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/frsize" />
+
+        <TextView
+            android:id="@+id/txt_legende_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_roomSize"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legende_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/image_legende_info"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filterinfotext" />
+
+        <TextView
+            android:id="@+id/txt_legende_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_info"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legende_beamer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_legende_beamer"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filterbeamer" />
+
+        <TextView
+            android:id="@+id/txt_legende_beamer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_beamer"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legende_projector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_legende_projector"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filterprojector" />
+
+        <TextView
+            android:id="@+id/txt_legende_projector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_projector"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legende_whiteboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_legende_whiteboard"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filterwhiteboard" />
+
+        <TextView
+            android:id="@+id/txt_legende_whiteboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_whiteboard"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legende_powersupply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_legende_powersupply"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filterpower" />
+
+        <TextView
+            android:id="@+id/txt_legende_powersupply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_power"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legende_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_legende_network"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filternetwork" />
+
+        <TextView
+            android:id="@+id/txt_legende_network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_network"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legende_pcpool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/img_legende_pcpool"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/filterpc" />
+
+        <TextView
+            android:id="@+id/txt_legende_pcpool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:gravity="center|left"
+            android:text="@string/legend_pc"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#535353" />
+
+    </LinearLayout>
+
+</LinearLayout>
