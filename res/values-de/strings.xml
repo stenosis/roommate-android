@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ *  Roommate
+ *  Copyright (C) 2012,2013 Team Roommate (info@roommateapp.info)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-->
+
+<!-- German translation -->
+<resources>
+    
+    <!-- Weekdays -->
+    <string name="sunday">Sonntag</string>
+    <string name="monday">Montag</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="friday">Freitag</string>
+    <string name="saturday">Samstag</string>
+    
+    <!-- Context Menu -->
+    <string name="cmenu_del">Datei löschen</string>
+    <string name="cmenu_share">Datei versenden</string>
+    <string name="cmenu_setstd">Als Standard setzen</string>
+    <string name="cmenu_remstd">Standard entfernen</string>
+    <string name="cmenu_info">Information anzeigen</string>
+    <string name="cmenu_nav">Navigiere zu Standort</string>
+    <string name="cmenu_filter">Eigenschaften filtern</string>
+    <string name="cmenu_legende">Symbol-Legende anzeigen</string>
+    <string name="social_headline">Datei versenden via</string>
+    <string name="social_subject">Eine Roommate Datei</string>
+    <string name="social_body">Eine Roommate Datei wurde mit dir geteilt (-:\n\n Mehr Information findest du unter:\nhttp://www.roommateapp.info</string>
+    <string name="info_roominfo">Raum Information</string>
+    <string name="info_exception">Zusätzliche Belegung</string>
+    <string name="info_version">Datei Version</string>
+    <string name="info_latCoordinate">Koordinate lat</string>
+    <string name="info_lngCoordinate">Koordinate lng</string>
+    <string name="info_semester">Semester</string>
+    <string name="info_state">Bundesland</string>
+    <string name="info_publicbuilding">Öffentliche Gebäudedatei</string>
+    <string name="info_filename">Dateiname</string>
+    <string name="info_roomcount">Anzahl Räume</string>
+    <string name="cmenu_delMsg1">Möchtest du die Datei</string>
+    <string name="cmenu_delMsg2">wirklich entfernen?</string>
+    <string name="cmenu_delsuccess">wurde entfernt.</string>
+    <string name="cmenu_hl">Vorgang</string>
+    <string name="menu_addfile">Roommate-Datei hinzufügen</string>
+    <string name="nav_noappfound">Keine installierte App kann diese Aktion ausführen. Bitte erwäge die Installation einer Navigations-Anwendung.</string>
+    
+    <!-- Filter -->
+    <string name="filter_info">Information</string>
+	<string name="filter_whiteboard">Tafel/Whiteboard</string>
+    <string name="filter_power">Stromanschluss</string>
+	<string name="filter_network">LAN-Anschluss</string>
+	<string name="filter_pc">PC Pool</string>
+    <string name="filter_projector">Projektor</string>
+	<string name="filter_beamer">Beamer</string>
+	<string name="filter_msgP1">Die Raumgröße liegt bei\nmindestens</string>
+	<string name="filter_msgP2">Plätzen.</string>
+		
+	<!-- Legend -->
+	<string name="legend_hl">Symbol-Legende</string>
+    <string name="legend_lectureCount">Anzahl freier Stunden</string>
+    <string name="legend_roomSize">Raumgröße</string>
+    <string name="legend_info">Information hinterlegt</string>
+    <string name="legend_beamer">Beamer vorhanden</string>
+    <string name="legend_projector">Projektor vorhanden</string>
+    <string name="legend_whiteboard">Tafel/Whiteboard vorhanden</string>
+    <string name="legend_power">Stromanschluss vorhanden</string>
+    <string name="legend_network">LAN-Anschluss vorhanden</string>
+    <string name="legend_pc">PCs vorhanden</string>
+    
+    <!-- Activity Settings -->
+    <string name="title_settings">Einstellungen</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_account">Benutzerkonto</string>
+    <string name="eingabeEmail">E-Mail Adresse</string>
+    <string name="passwort">Passwort</string>
+    <string name="remember">speichern</string>
+    <string name="login">überprüfen</string>
+    <string name="exchange">exchange</string>
+    <string name="manuellExchange">manuell</string>
+    <string name="check4updates">nach Roommate Updates suchen</string>
+    <string name="title_regularSettings">Allgemeine Einstellungen</string>
+    <string name="holdidaycheck">Feiertage filtern</string>
+    <string name="no_valid_email">Bitte gebe deine Anmeldedaten an.</string>
+    <string name="dl_holidayfile_question">Möchten Sie die Feiertagsliste für Deutschland herunterladen?</string>
+	<string name="exchange_nofiles_hl">Keine Dateien gefunden</string>    
+    <string name="exchange_nofiles_msg">Es wurden keine Roommate-Dateien zum synchronisieren gefunden.</string>
+	<string name="info_settings_account">Verbinde die Roommate-App mit deinem Online-Konto auf roommateapp.info zur Synchronisation mit deinen Dateien.</string>
+    <string name="info_settings_sync">Übertrage deine Dateien auf dein Smartphone. Für Öffentliche Gebäudedateien ist kein Roommate Online-Konto erforderlich.</string>
+    <string name="auto_sync">automatische Synchronisation</string>
+    <string name="dialog_fire_missiles">Bitte gebe ein gültiges Benutzerkonto an, um diese Funktion nutzen zu können.</string>
+    <string name="msg_up2date">Die installierte Roommate Version ist aktuell.</string>
+    <string name="msg_holidayfiledownloaded">Feiertagsliste erfolgreich heruntergeladen.</string>
+    <string name="title_signup">Anmeldung</string>
+    <string name="msg_signupFailed">Anmeldung fehlgeschlagen!</string>
+    <string name="msg_signupSuccess">Anmeldung erfolgreich!</string>
+    <string name="msg_signupCheck">Verbinde mit Webservice</string>
+    <string name="update_available">ist verfügbar.\nMöchtest du das Update herunterladen?</string>
+    
+    <!-- Activity Sync -->
+    <string name="title_sync">Synchronisation</string>
+    <string name="btn_sync">Jetzt aktualisieren</string>
+    <string name="all_files_updated_ok">Alle Dateien wurden erfolgreich aktualisiert</string>
+    <string name="dialog_selectFiles">Dateien auswählen</string>
+    <string name="title_update">Updatestatus</string>
+    <string name="msg_nofileupdates">Es sind keine Updates verfügbar</string>
+    <string name="msg_justpublicfiles">Login fehlgeschlagen. Es werden nur offizielle Dateien angezeigt</string>
+    <string name="title_updated">Aktualisierung</string>
+    <string name="title_updatedError">Updatefehler</string>
+    <string name="msg_updateError">Es gab einen Fehler beim Dateiupdate</string>
+    <string name="msg_update">Alle Dateien wurden erfolgreich aktualisiert</string>
+    <string name="msg_publicfilesError">Konnte nicht auf die Öffentlichen Dateien zugreifen, Operation kann nicht fortgesetzt werden!</string>    
+    <string name="msg_updateErrorPublic">Das Update einer öffentlichen Datei ist fehlgeschlagen</string>
+    <string name="msg_updateSuccess">Aktualisierung erfolgreich</string>
+    <string name="msg_needSD">Es ist eine SD-Karte zum speichern der Daten erfoderlich.</string>
+    
+    <!-- Activity PublicFiles -->
+    <string name="title_publicfiles">Öffentliche Dateien</string>
+    <string name="publicfiles_disclaimer_hl">Hinweis</string>
+    <string name="publicfiles_disclaimer">Öffentliche Gebäudedateien werden von der Community verwaltet und der Öffentlichkeit frei zur Verfügung gestellt. Alle Angaben ohne Gewähr.</string>
+    
+    <!-- Activity AddFile -->
+    <string name="title_addfile">Roommate-Dokument</string>
+    <string name="warning_unknownurl">Die URL führt zu einer fremden Seite. Wollen Sie das?</string>
+    <string name="infoAddFile">Im Online Editor roommateapp.info lassen sich bequem neue Dateien erstellen sowie weitere Gebäudedateien einsehen und auf dein Smartphone übertragen.</string>
+    <string name="title_enterurl">URL eingeben</string>
+    <string name="download">herunterladen</string>
+    <string name="Download">Herunterladen</string>
+    <string name="scan_qr">QR-Code scannen</string>
+    <string name="downloading">lädt herunter</string>
+    <string name="info_addfile_sync">Du besitzt bereits ein Online-Konto und möchtest deine Dateien mit der App synchronisieren?\nKein Problem! Klicke einfach hier.</string>
+    <string name="btn_publicfiles">Anzeigen</string>
+    <string name="warning_hl">Warnung</string>
+    <string name="msg_publicfiles">Öffentliche Gebäudedateien direkt von roommateapp.info herunterladen.</string>
+    <string name="msg_downloadSuccess">Download erfolgreich.</string>
+    <string name="msg_downloadFailed">Download fehlgeschlagen.</string>
+    <string name="msg_novalidfile">Keine gültige Roommate Datei.</string>
+    <string name="pleaseWait">Bitte warten</string>
+    <string name="noFilesSelected">Es wurden keine Dateien ausgewählt</string>
+    <string name="wrong_url">Bitte gebe eine gültige URL an.</string>
+    
+    <!-- Activity About -->
+    <string name="title_about">Über Roommate</string>
+    <string name="aboutURL">www.rooommateapp.info</string>
+    <string name="title_version">Version</string>
+    <string name="title_details">Details</string>
+    <string name="title_credits">Mitwirkende</string>
+    <string name="title_changelog">Änderungen</string>
+    <string name="title_licence">Lizenzen</string>
+    <string name="aboutCreators">Team Roommate SPIN/SPMI 2012, 2013</string>
+    <string name="aboutThanksTo">Besonderen Dank an</string>
+    <string name="changelog1.0_p1">Erste Veröffentlichung</string>
+    <string name="changelog1.1_p1">Client Update Prüfer implementiert</string>
+    <string name="changelog1.1_p2">Google+ und Facebook verlinkt</string>
+    <string name="changelog1.1_p3">Layout Anpassungen</string>
+    <string name="changelog1.1_p4">Diverse Optimierungen</string>
+    <string name="changelog1.2_p1">Öffentliche Dateien direkt herunterladbar</string>
+    <string name="changelog1.2_p2">Timepicker lässt sich zurücksetzen</string>
+    <string name="changelog1.2_p3">Unterstützung von Lokalisierungen</string>
+    <string name="changelog1.2_p4">Quelltext auf GitHub veröffentlicht</string>
+    <string name="changelog1.2_p5">Diverse Optimierungen</string>
+    <string name="changelog1.2.5_p1">Hardwaretaste Menü für ältere Geräte aktiviert</string>
+    <string name="changelog1.2.5_p2">Kopfzeilen der Aktivitäten leichter anklickbar</string>
+    <string name="changelog1.2.5_p3">Fehlerbehebung im DateHelper und TimePicker</string>
+    <string name="changelog1.2.5_p4">Seperate Feiertagsliste deaktiviert</string>
+    <string name="changelog1.2.5_p5">Layout- und Programm-Optimierungen</string>
+    
+    <!-- Activity OpenFile -->
+    <string name="novalidfile">Hierbei handelt es sich um keine gültige Roommate Datei</string>
+    <string name="dialog_file">Datei</string>
+    <string name="dialog_version">Version</string>
+    <string name="dialog_date">Datum</string>
+    <string name="dialog_building">Gebäude</string>
+    <string name="dialog_error">Fehler</string>
+    <string name="dialog_close">Beenden</string>
+    <string name="question_open">Möchten Sie folgende Datei dem Roommate hinzufügen?</string>
+    <string name="title_buildinginfo">Gebäudeinformation</string>
+    
+    <!-- Activity Building -->
+    <string name="filter_active">Filter aktiv</string>
+    <string name="hour">Stunde</string>
+    <string name="msg_toolate">Zum nächsten Tag gesprungen.</string>
+    <string name="msg_wrongday">Der nächste verfügbare Tag wurde ausgewählt.</string>
+    <string name="filtertitle">Was soll angezeigt werden?</string>
+    <string name="hl_weekdays">Wochentage</string>
+    <string name="hl_lecture">Stundenraster</string>
+    <string name="filter_set">Filtern</string>
+    <string name="filter_reset">Zurücksetzen</string>
+    <string name="error_norooms">In diesem Gebäude wurden keine Räume eingetragen.</string>
+    <string name="dl_holidayfile_hl">Download Feiertagsliste</string>
+    <string name="dl_holidayfile_txt">Die zugrunde liegende Feiertagsliste ist veraltet.\n\nMöchten Sie diese nun aktualisieren?</string>
+    <string name="msg_at">Am</string>
+    <string name="msg_is">ist</string>
+    <string name="building_titleP1">Freie Räume</string>
+    <string name="building_titleP2">Raumliste</string>
+    <string name="room_sizeNA">N/A</string>
+    <string name="msg_nofreeroomsfound">Keine freien Räume gefunden.</string>
+    
+    <!-- Activity Room -->
+    <string name="available">nicht belegt</string>
+    <string name="error_damageddata">Der ausgewählte Raum besitzt fehlerhafte Daten. Bitte überprüfe die Angaben.</string>
+    
+    <!-- Activity Introduction -->
+    <string name="introP1_hl">Finde freie Räume</string>
+    <string name="introP1">Mit dem Roommate behältst du den Überblick und erfährst direkt auf einen Blick, welche Räume dir innerhalb eines Gebäudes zur Verfügung stehen.\n\nDu verlierst keine kostbare Zeit auf der Suche nach einem freien Raum und stolperst nicht ungebeten in Veranstaltungen hinein.\n\nFilter Räume nach ihren Eigenschaften und schau dir bequem die aktuellen Belegungspläne der einzelnen Räume an.</string>
+    <string name="introP2_hl">Online Editor</string>
+    <string name="introP2_url">roommateapp.info</string>
+    <string name="introP2">Auf unserer Webseite findest du öffentliche Gebäudedateien, die du dir ganz einfach auf dein Smartphone laden kannst.\n\nDort kannst du ebenfalls unseren Online Editor nutzen. Dieser ermöglicht es dir eigene Gebäudedaten anzulegen, diese auf dein Smartphone zu übertragen oder mit Freunden und der Community zu teilen.\n\nBesuche uns um weitere Informationen zu erhalten und Funktionen zu entdecken auf:</string>
+    <string name="introP3_hl">Synchronisation</string>
+    <string name="introP3">Bleib auf dem laufenden. Sobald sich die Belegungspläne deiner Gebäudedateien ändern besitzt du stets die aktuellste Version.\n\nÜbertrage die von dir erstellen Dateien auf dein Smartphone oder aktualisiere die frei zur Verfügung stehenden öffentlichen Gebäudedateien in wenigen Schritten.\n\nIn den Programmeinstellungen kannst du die Dateien abgleichen sowie dich mit der Webseite verbinden.</string>
+        
+    <!-- Content descriptions -->
+    <string name="desc_github">Roommate on GitHub</string>
+    <string name="desc_googleplus">Roommate auf Google Plus</string>
+    <string name="desc_facebook">Roommate auf Facebook</string>
+    <string name="desc_roommatelogo">Besuche die Roommate Webseite</string>
+    <string name="desc_btnback">Zurück</string>
+    <string name="desc_contextmenu">Optionen</string>
+    <string name="desc_infoicon">Information</string>
+    <string name="desc_syncselectall">Alle Dateien auswählen</string>
+    <string name="desc_frClock">Anzahl freier Stunden</string>
+    
+</resources>

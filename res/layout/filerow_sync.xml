@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+ *  Roommate
+ *  Copyright (C) 2012,2013 Team Roommate (info@roommateapp.info)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="68dp"
+   
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/LinearLayoutFileRowsync"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+         android:background="@drawable/bgfrstd"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/frHeadlinesync"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false"
+            android:layout_centerInParent="false"
+            android:layout_marginLeft="6dp"
+            android:layout_toLeftOf="@+id/checkBoxupdate"
+            android:ellipsize="marquee"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#535353" />
+
+        <LinearLayout
+            android:id="@+id/layoutSublinesync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frHeadlinesync"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/frImageSublinesync"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="6dp"
+                android:src="@drawable/frclockstd" />
+
+            <TextView
+                android:id="@+id/frSublinesync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Subline"
+                android:textColor="#535353" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkBoxupdate"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/layoutSublinesync"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/frHeadlinesync"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="4dp"
+            android:adjustViewBounds="true"
+            android:alpha="100"
+            android:button="@drawable/checkbox_sync_style"
+            android:checked="false"
+            android:fadingEdge="none"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

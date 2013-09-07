@@ -1,1 +1,113 @@
-/home/stenosis/roommate-project/roommate-app/client-WIP/AndroidManifest.xml
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ *  Roommate
+ *  Copyright (C) 2012,2013 Team Roommate (info@roommateapp.info)
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="roommateapp.info"
+    android:versionCode="1"
+    android:versionName="@string/aboutVersion" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/roommate">
+
+        <activity
+            android:name="roommateapp.info.droid.ActivityMain"
+            android:label="@string/roommate"
+            android:theme="@style/Theme.Roommate" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="roommateapp.info.droid.ActivityAbout"
+            android:label="@string/title_activityAbout"
+            android:theme="@style/Theme.Roommate" >
+        </activity>
+        
+        <activity
+            android:name="roommateapp.info.droid.ActivityAddFile"
+            android:label="@string/title_activityAddFile"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.Roommate" >
+        </activity>
+        
+        <activity
+            android:name="roommateapp.info.droid.ActivitySettings"
+            android:label="@string/title_activitySettings"
+            android:theme="@style/Theme.Roommate" >
+        </activity>
+        
+        <activity
+            android:name="roommateapp.info.droid.ActivityOpenFile"
+            android:label="@string/title_activityOpenFile"
+            android:theme="@style/Theme.Roommate" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.xml" />
+                <data android:pathPattern=".*\\.mate" />
+                <data android:host="*" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="roommateapp.info.droid.ActivityBuilding"
+            android:theme="@style/Theme.Roommate" 
+            android:label="@string/title_activityBuilding">
+        </activity>
+        
+        <activity
+            android:name="roommateapp.info.droid.ActivityIntroduction"
+            android:theme="@style/Theme.Roommate" 
+            android:screenOrientation="portrait" 
+            android:label="@string/title_activityIntroduction">
+        </activity>
+        
+        <activity
+            android:name="roommateapp.info.droid.ActivityRoom"
+            android:theme="@style/Theme.Roommate" 
+            android:label="@string/title_activityRoom">
+        </activity>
+        
+        <activity
+            android:name="roommateapp.info.droid.ActivitySync"
+            android:theme="@style/Theme.Roommate" 
+            android:label="@string/title_activitySync">
+        </activity>
+        
+         <activity
+            android:name="roommateapp.info.droid.ActivityPublicFiles"
+            android:theme="@style/Theme.Roommate" 
+            android:label="@string/title_activityPublicFiles">
+        </activity>
+    </application>
+</manifest>
