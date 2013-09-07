@@ -9,19 +9,30 @@
   \/_____/\/_/\/_/\/_/\/_/\/_/ \/_/\/_____/\/_____/\/_____/\/_____/\/_____/ 
   
 --------------------------------------
+Version 1.3
+Datum: xx.xx.xx
 
-Version: 1.2
-Datum: xx.07.2013
++ todo: Netzwerkcode vereinfachen
++ todo: Gebäude können eigene Filter besitzen
++ todo: Widget
++ todo: Erste Planungen für ein json Format
 
-* ActivityAbout: GitHub Link eingefügt 
-* ActivityPublicFiles zum downloaden von Öffentlichen Dateien eingeführt
-* TimePicker: Zeit zurücksetzen Button hinzugefügt
-* Unterstützung für Lokalisierungen eingeführt
-* Englische Übersetzung hinzugefügt
-* ActivitySettings gibt feedback wenn die App aktuell ist
-* ActivityQR Überreste entfernt
-* Gridlayout Abhänigkeiten entfernt
-* TimeHelper lokalisiert
+--------------------------------------
+Version: 1.2.5
+Datum: 07.09.2013
+
+* ActivityMain: Hardwaretaste zurück schiebt die Anwendung in den Hintergrund.
+* ActivityIntroduction: Hardwaretaste zurück schiebt die Anwendung in den Hintergrund.
+* ActivityBuilding: Hardwaretaste Menü öffnet das Kontextmenü
+* ActivityRoom: Hardwaretaste Menü öffnet die Rauminformation
+* Kopfzeilen führen zurück in die letzte Activity
+* ActivityIntroduction prüft auf Client Updates
+* Bugfix im DateHelper, der Samstag wurde in Übersetzungen falsch adressiert
+* Bugfix im TimePickerFragment, Wochentage konnten nach Abschluss des Tages übersprungen werden
+* Bugfix im Contextmenü, Android 2.x schmiert ab wenn keine Navigations Anwendung installiert ist
+* Feiertagsprüfung vorläufig deaktiviert
+* Kleinere Layoutanpassungen
+* SD-Karten Prüfung ausgebaut
 
 --------------------------------------
 
